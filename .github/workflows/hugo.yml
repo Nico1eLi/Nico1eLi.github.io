@@ -2,7 +2,8 @@ name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -16,23 +17,37 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04  # Explicitly use Ubuntu 24.04
+    runs-on: ubuntu-22.04
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
-          go-version: '1.20'
-          
+          go-version: '1.21'
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
 
+      # 这是需要更新的部分 ⬇️
+      - name: Initialize Hugo Module
+        run: |
+          rm -f go.sum
+          hugo mod init github.com/Nico1eLi/Nico1eLi.github.io
+          hugo mod get github.com/gurusabarish/hugo-profile@v4.051
+          hugo mod tidy
+      # 这是需要更新的部分 ⬆️
+
       - name: Build
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
         run: hugo --minify
 
       - name: Upload artifact
@@ -44,7 +59,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-24.04  # Explicitly use Ubuntu 24.04
+    runs-on: ubuntu-22.04
     needs: build
     steps:
       - name: Deploy to GitHub Pages
