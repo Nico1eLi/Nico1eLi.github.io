@@ -1,0 +1,88 @@
+baseURL: "https://Nico1eLi.github.io/"
+languageCode: "en-us"
+title: "Guo LI"
+theme: "hugo-profile"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Guo LI"
+  description: "PhD Student"
+  customCSS: true
+  # [新增] 暗黑模式
+  darkMode: false
+
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: "Guo LI"
+    subtitle: "Thinking & Exploring"
+    content: "PhD Student"
+    image: "/images/hero.jpg"
+    button:
+      enable: true
+      name: "More"
+      url: "#about"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fas fa-envelope
+          url: "mailto:nico1elee@outlook.com"
+        - icon: fab fa-github
+          url: "https://github.com/Nico1eLi"    
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/about.jpg"
+    content: |-
+      Hi, there~
+
+      Currently, I am a Ph.D. student in the Department of Government and Public Administration, Faculty of Social Sciences at the University of Macau. My research interests lie in the field of comparative politics, with a particular focus on cultural governance, entertainment politics, and celebrity politics under authoritarian regimes.
+
+      If you have any questions about my research or would like to discuss potential collaboration opportunities, please feel free to reach out to me.
+
+  experience:
+    enable: true
+    title: "Research"
+    items:
+      - job: "Selected Publications"
+        company: "Publications"
+        info:
+          enable: false
+        content: |-
+          - "Cultural Governance and Entertainment Politics (Work in Progress)"
+          - "Celebrity Politics in Digital Age (Work in Progress)"
+
+      - job: "Academic Events"
+        company: "Academic Events"
+        info:
+          enable: false
+        content: |-
+          - "Conference 1"
+          - "Conference 2"
+
+  achievements:
+    enable: true
+    title: "Education"
+    items:
+      - title: Ph.D. in Government and Public Administration
+        content: University of Macau, 2023-Present
+        url: "https://www.um.edu.mo/"
+        
+      - title: MSS in International Relations and Public Policy
+        content: University of Macau, 2021-2023
+        url: "https://www.um.edu.mo/"
+        
+      - title: LL.B in Politics, Philosophy and Economics
+        content: Renmin University of China, 2017-2021
+        url: "https://www.ruc.edu.cn/"
+

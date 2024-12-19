@@ -1,0 +1,30 @@
+/* 自定义头像样式 */
+.hero-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* 关于我页面的图片样式 */
+.about-image {
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .hero-image {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .about-image {
+        max-width: 100%;
+    }
+}
