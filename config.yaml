@@ -1,4 +1,4 @@
-baseURL: "https://Nico1eLi.github.io"
+baseURL: "https://Nico1eLi.github.io/"
 languageCode: "zh-cn"
 title: "Guo LI"
 
@@ -32,7 +32,7 @@ params:
     image: "/images/avatar.jpg"  # 待会我们添加图片
     content: |-
       Hi, there~
-      Currently, I am a Ph.D. student in the *Department of Government and Public Administration*, *Faculty of Social Sciences* at the *University of Macau*. My research interests lie in the field of comparative politics, with a particular focus on cultural governance, entertainment politics, and celebrity politics under authoritarian regimes.** 
+      Currently, I am a Ph.D. student in the *Department of Government and Public Administration*, *Faculty of Social Sciences* at the *University of Macau*. My research interests lie in the field of comparative politics, with a particular focus on cultural governance, entertainment politics, and celebrity politics under authoritarian regimes. 
       If you have any questions about my research or would like to discuss potential collaboration opportunities, please feel free to reach out to me.
 
     skills:
