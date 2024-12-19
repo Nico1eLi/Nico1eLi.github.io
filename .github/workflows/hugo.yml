@@ -38,9 +38,8 @@ jobs:
       # 这是需要更新的部分 ⬇️
       - name: Initialize Hugo Module
         run: |
-          rm -f go.sum
-          hugo mod init github.com/Nico1eLi/Nico1eLi.github.io
-          hugo mod get github.com/gurusabarish/hugo-profile@v4.051
+          hugo mod clean
+          hugo mod get -u github.com/gurusabarish/hugo-profile@v4.051
           hugo mod tidy
       # 这是需要更新的部分 ⬆️
 
