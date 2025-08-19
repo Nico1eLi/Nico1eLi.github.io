@@ -94,7 +94,7 @@ params:
         content: Renmin University of China, 2017-2021
         url: "https://www.ruc.edu.cn/"
 
-  cv:
+  contact:
     enable: true
     title: "Curriculum Vitae"
     content: |-
