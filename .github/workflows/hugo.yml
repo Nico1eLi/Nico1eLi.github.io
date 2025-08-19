@@ -13,9 +13,6 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,16 +33,18 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Create and switch to gh-pages branch
-          git checkout -b gh-pages
+          # Create gh-pages branch if it doesn't exist
+          git checkout --orphan gh-pages || git checkout gh-pages
           
-          # Remove all files except public content
-          git rm -rf .
+          # Remove all files
+          git rm -rf . || true
+          
+          # Copy website files
           cp -r public/* .
           
           # Add and commit
           git add -A
-          git commit -m "Deploy Hugo site to GitHub Pages"
+          git commit -m "Deploy Hugo site to GitHub Pages" || true
           
           # Push to gh-pages branch
           git push origin gh-pages --force
