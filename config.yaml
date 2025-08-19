@@ -32,6 +32,7 @@ params:
       enable: true
       name: "More"
       url: "#about"
+      download: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fas fa-envelope
