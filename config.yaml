@@ -59,16 +59,23 @@ params:
         info:
           enable: false
         content: |-
-          - "Cultural Governance and Entertainment Politics (Work in Progress)"
-          - "Celebrity Politics in Digital Age (Work in Progress)"
+          - "Authoritarian Stardom: Coopting Entertainment Celebrities to Serve the State" with *Chengli Wang*, under review
+          - “The Star Effect: How Celebrity Propaganda Shapes Public Opinion in China” with *Chengli Wang*, Work in Progress
+          - “ Patriotism or Exclusion? Gender Inequality in Authoritarian Cultural Production”, Work in Progress
+          - "Celebrity Politics and NGOs advocacy in Digital Age" (PhD dissertation, work in progress)
+          - "Cultural Governance and Entertainment Politics" (Work in Progress)
 
       - job: "Academic Events"
         company: "Academic Events"
         info:
           enable: false
         content: |-
-          - "Conference 1"
-          - "Conference 2"
+          -   Sept. 2025 **2025 121st APSA Annual Meeting**, Vancouver, BC, Canada
+          -   Sept. 2024 **2024 120th APSA Annual Meeting**, Philadelphia, PA, USA
+          -   Jul. 2024 **17th Annual Meeting of Chinese Community of Political Science and International Studies**, Tsinghua University, Beijing, China
+          -   Mar. 2024 **2nd DGPA Student Research Symposium**, DGPA, University of Macau, Macau SAR
+          -   Mar. 2023 **PhD and MSS student research symposium** , DGPA, University of Macau, Macau SAR
+          
 
   achievements:
     enable: true
@@ -85,4 +92,10 @@ params:
       - title: LL.B in Politics, Philosophy and Economics
         content: Renmin University of China, 2017-2021
         url: "https://www.ruc.edu.cn/"
+
+  cv:
+    enable: true
+    title: "Curriculum Vitae"
+    content: |-
+              You can download my CV [here](https://www.dropbox.com/scl/fi/mkay1zergk4bo7jz81lqc/cv.pdf?rlkey=t8p9j853t4u4het69utiw0pfq&st=ef8kjhqc&dl=0).
 
