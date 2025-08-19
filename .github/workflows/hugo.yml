@@ -42,7 +42,7 @@ jobs:
         run: hugo --minify
 
       - name: Upload artifact
-        uses: actions/setup-go@v4
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
 
@@ -55,4 +55,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/setup-go@v4
+        uses: actions/deploy-pages@v2
