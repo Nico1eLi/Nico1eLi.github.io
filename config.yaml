@@ -25,7 +25,7 @@ params:
     enable: true
     intro: "Hi, I'm"
     title: "Guo LI"
-    subtitle: "Thinking & Exploring"
+    subtitle: "Politics & Entertainment"
     content: "PhD Student"
     image: "/images/hero.jpg"
     button:
@@ -60,11 +60,11 @@ params:
         info:
           enable: false
         content: |-
-          - "Authoritarian Stardom: Coopting Entertainment Celebrities to Serve the State" with *Chengli Wang*, under review
-          - “The Star Effect: How Celebrity Propaganda Shapes Public Opinion in China” with *Chengli Wang*, Work in Progress
-          - “ Patriotism or Exclusion? Gender Inequality in Authoritarian Cultural Production”, Work in Progress
+          - "Harnessing Star Power: Sequential Political Cooptation of Entertainment Celebrities in China" with *Chengli Wang*, R&R
+          - “The Star Effect: How Celebrity Propaganda Shapes Public Opinion in China” with *Chengli Wang*, working paper
+          - “ Patriotism or Exclusion? Gender Inequality in Authoritarian Cultural Production”, working paper
           - "Celebrity Politics and NGOs advocacy in Digital Age" (PhD dissertation, work in progress)
-          - "Cultural Governance and Entertainment Politics" (Work in Progress)
+          - Looking Outward to Laugh: The Externalization and Geopolitics of Political Satire in Contemporary China (with *Peiyu Wang*)
 
       - job: "Academic Events"
         company: "Academic Events"
@@ -82,7 +82,7 @@ params:
     enable: true
     title: "Education"
     items:
-      - title: Ph.D. in Government and Public Administration
+      - title: Ph.D. in Public Administration
         content: University of Macau, 2023-Present
         url: "https://www.um.edu.mo/"
         
