@@ -26,7 +26,7 @@ params:
     intro: "Hi, I'm"
     title: "Guo LI"
     subtitle: "Politics & Entertainment"
-    content: "PhD Student"
+    content: "PhD Candidate in Public Administration at the University of Macau"
     image: "/images/hero.jpg"
     button:
       enable: true
@@ -45,11 +45,13 @@ params:
     title: "About Me"
     image: "/images/about.jpg"
     content: |-
-      Hi, there~
-
-      Currently, I am a Ph.D. student in the Department of Government and Public Administration, Faculty of Social Sciences at the University of Macau. My research interests lie in the field of comparative politics, with a particular focus on cultural governance, entertainment politics, and celebrity politics under authoritarian regimes.
-
-      If you have any questions about my research or would like to discuss potential collaboration opportunities, please feel free to reach out to me.
+      Hello!
+      
+      I am a Ph.D. Candidate in the Department of Government and Public Administration at the University of Macau, currently on the 2026-2027 academic job market.  
+      
+      My research bridges comparative politics and public policy communication, with a specialized focus on cultural governance, entertainment politics, and the dynamics of celebrity politics under non-democratic regimes. Utilizing quantitative data analysis and experimental survey designs, I explore how these elements shape public perception and policy outcomes.  
+      
+      I am actively seeking academic and research roles. Please feel free to reach out to discuss my work, potential collaborations, or upcoming career opportunities.
 
   experience:
     enable: true
@@ -67,7 +69,7 @@ params:
         info:
           enable: false
         content: |-
-          - "The Star Effect: How Celebrity Propaganda Shapes Public Opinion in China" with *Chengli Wang*, working paper
+          - "The Star Effect: How Celebrity Propaganda Shapes Public Opinion in China" with *Chengli Wang*, under review
           - "Patriotism or Exclusion? Gender Inequality in Authoritarian Cultural Production", working paper
           - "Celebrity Politics and NGOs advocacy in Digital Age" (PhD dissertation, work in progress)
           - "Looking Outward to Laugh: The Externalization and Geopolitics of Political Satire in Contemporary China", with *Peiyu Wang*
