@@ -38,7 +38,7 @@ params:
         - icon: fas fa-envelope
           url: "mailto:drguoli99@gmail.com"
         - icon: fab fa-github
-          url: "https://github.com/Nico1eLi"    
+          url: "https://github.com/Nico1eLi"
 
   about:
     enable: true
@@ -46,67 +46,68 @@ params:
     image: "/images/about.jpg"
     content: |-
       Hello!
-      
-      I am a Ph.D. Candidate in the Department of Government and Public Administration at the University of Macau, currently on the 2026-2027 academic job market.  
-      
-      My research bridges comparative politics and public policy communication, with a specialized focus on cultural governance, entertainment politics, and the dynamics of celebrity politics under non-democratic regimes. Utilizing quantitative data analysis and experimental survey designs, I explore how these elements shape public perception and policy outcomes.  
-      
+
+      I am a Ph.D. Candidate in the Department of Government and Public Administration at the University of Macau, currently on the 2026-2027 academic job market.
+
+      My research bridges comparative politics and public policy communication, with a specialized focus on cultural governance, entertainment politics, and the dynamics of celebrity politics under non-democratic regimes. Utilizing quantitative data analysis and experimental survey designs, I explore how these elements shape public perception and policy outcomes.
+
       I am actively seeking academic and research roles. Please feel free to reach out to discuss my work, potential collaborations, or upcoming career opportunities.
 
-experience:
-  enable: true
-  title: "Research"
-  items:
-    - job: "Selected Publications"
-      company: "Publications"
-      date: "2026"
-      info:
-        enable: false
-      content: |-
-        - Li, G., Wang, C. (2026). "[Harnessing Star Power: Sequential Political Cooptation of Entertainment Celebrities in China](https://journals.sagepub.com/doi/full/10.1177/19401612261422514)". *The International Journal of Press/Politics*. *Online First*
+  experience:
+    enable: true
+    title: "Research"
+    items:
+      - job: "Selected Publications"
+        company: "Publications"
+        date: "2026"
+        info:
+          enable: false
+        content: |-
+          - Li, G., Wang, C. (2026). "[Harnessing Star Power: Sequential Political Cooptation of Entertainment Celebrities in China](https://journals.sagepub.com/doi/full/10.1177/19401612261422514)". *The International Journal of Press/Politics*. *Online First*
 
-    - job: "Working Papers"
-      company: "Work in Progress"
-      date: "2025–2026"
-      info:
-        enable: false
-      content: |-
-        - "The Star Effect: How Celebrity Propaganda Shapes Public Opinion in China" with *Chengli Wang*, under review
-        - "Patriotism or Exclusion? Gender Inequality in Authoritarian Cultural Production", working paper
-        - "Celebrity Politics and NGOs advocacy in Digital Age" (PhD dissertation, work in progress)
-        - "Looking Outward to Laugh: The Externalization and Geopolitics of Political Satire in Contemporary China", with *Peiyu Wang*
+      - job: "Working Papers"
+        company: "Work in Progress"
+        date: "2025–2026"
+        info:
+          enable: false
+        content: |-
+          - "The Star Effect: How Celebrity Propaganda Shapes Public Opinion in China" with *Chengli Wang*, under review
+          - "Patriotism or Exclusion? Gender Inequality in Authoritarian Cultural Production", working paper
+          - "Celebrity Politics and NGOs advocacy in Digital Age" (PhD dissertation, work in progress)
+          - "Looking Outward to Laugh: The Externalization and Geopolitics of Political Satire in Contemporary China", with *Peiyu Wang*
 
-    - job: "Academic Conferences"
-      company: "Academic Conferences"
-      date: "2023–2026"
-      info:
-        enable: false
-      content: |-
-        - Jul. 2026 **2026 ACWS <Race and Gender> International Conference: B/ordering the Global: Transnational Feminist Critiques from Asia**, Ewha Womans University, Seoul, Korea
-        - Sept. 2025 **2025 121st APSA Annual Meeting**, Vancouver, BC, Canada
-        - Sept. 2024 **2024 120th APSA Annual Meeting**, Philadelphia, PA, USA
-        - Jul. 2024 **17th Annual Meeting of Chinese Community of Political Science and International Studies**, Tsinghua University, Beijing, China
-        - Mar. 2024 **2nd DGPA Student Research Symposium**, DGPA, University of Macau, Macau SAR
-        - Mar. 2023 **PhD and MSS student research symposium**, DGPA, University of Macau, Macau SAR          
+      - job: "Academic Conferences"
+        company: "Academic Conferences"
+        date: "2023–2026"
+        info:
+          enable: false
+        content: |-
+          - Jul. 2026 **2026 ACWS <Race and Gender> International Conference: B/ordering the Global: Transnational Feminist Critiques from Asia**, Ewha Womans University, Seoul, Korea
+          - Sept. 2025 **2025 121st APSA Annual Meeting**, Vancouver, BC, Canada
+          - Sept. 2024 **2024 120th APSA Annual Meeting**, Philadelphia, PA, USA
+          - Jul. 2024 **17th Annual Meeting of Chinese Community of Political Science and International Studies**, Tsinghua University, Beijing, China
+          - Mar. 2024 **2nd DGPA Student Research Symposium**, DGPA, University of Macau, Macau SAR
+          - Mar. 2023 **PhD and MSS student research symposium**, DGPA, University of Macau, Macau SAR
 
   education:
+    enable: true
+    title: "Education"
     items:
-     - title: "Ph.D. in Public Administration"
-       school:
-                name: "University of Macau"
-                url: "https://www.um.edu.mo/"
-                date: "2023-2027(expected)"
-     - title: "MSS in International Relations and Public Policy"
-       school:
-                name: "University of Macau"
-                url: "https://www.um.edu.mo/"
-                date: "2021-2023"
-
-     - title: "LL.B in Politics, Philosophy and Economics"
-       school:
-                name: "Renmin University of China"
-                url: "https://www.ruc.edu.cn/"
-                date: "2017-2021"
+      - title: "Ph.D. in Public Administration"
+        school:
+          name: "University of Macau"
+          url: "https://www.um.edu.mo/"
+          date: "2023-2027(expected)"
+      - title: "MSS in International Relations and Public Policy"
+        school:
+          name: "University of Macau"
+          url: "https://www.um.edu.mo/"
+          date: "2021-2023"
+      - title: "LL.B in Politics, Philosophy and Economics"
+        school:
+          name: "Renmin University of China"
+          url: "https://www.ruc.edu.cn/"
+          date: "2017-2021"
 
   contact:
     enable: true
