@@ -52,14 +52,14 @@ params:
       My research bridges comparative politics and public policy communication, with a specialized focus on cultural governance, entertainment politics, and the dynamics of celebrity politics under non-democratic regimes. Utilizing quantitative data analysis and experimental survey designs, I explore how these elements shape public perception and policy outcomes.
 
       I am actively seeking academic and research roles. Please feel free to reach out to discuss my work, potential collaborations, or upcoming career opportunities.
-
+ 
   experience:
     enable: true
     title: "Research"
     items:
       - job: "Selected Publications"
         company: "Publications"
-        date: "2026"
+        date: ""
         timeline:
           - date: "2026"
             content: |-
@@ -67,24 +67,24 @@ params:
 
       - job: "Work in Progress"
         company: "Work in Progress"
-        date: "2025–2026"
+        date: ""
         timeline:
-          - date: "2025–2026"
+          - date: ""
             content: |-
               - "The Star Effect: How Celebrity Propaganda Shapes Public Opinion in China" with *Chengli Wang*, under review
-          - date: "2025–2026"
+          - date: ""
             content: |-
               - "Patriotism or Exclusion? Gender Inequality in Authoritarian Cultural Production", working paper
-          - date: "2025–2026"
+          - date: ""
             content: |-
               - "Celebrity Politics and NGOs advocacy in Digital Age" (PhD dissertation, work in progress)
-          - date: "2025–2026"
+          - date: ""
             content: |-
               - "Looking Outward to Laugh: The Externalization and Geopolitics of Political Satire in Contemporary China", with *Peiyu Wang*
 
       - job: "Academic Conferences"
         company: "Academic Conferences"
-        date: "2023–2026"
+        date: ""
         timeline:
           - date: "Jul. 2026"
             content: |-
