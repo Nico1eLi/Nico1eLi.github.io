@@ -86,6 +86,12 @@ params:
         company: "Academic Conferences"
         date: ""
         timeline:
+          - date: "Oct. 2026"
+            content: |-
+              - **The Third International Asian Stardom, Celebrity and Fandom Conference**, University of Nottingham Ningbo China, Zhejiang, China
+          - date: "Sept. 2026"
+            content: |-
+              - **2026 122nd APSA Annual Meeting**, Boston, MA, USA
           - date: "Jul. 2026"
             content: |-
               - **2026 ACWS <Race and Gender> International Conference: B/ordering the Global: Transnational Feminist Critiques from Asia**, Ewha Womans University, Seoul, Korea
